@@ -1,0 +1,25 @@
+Environment,Algorithm,Final Reward mu,+/- 95% CI,Final RMSE mu,RMSE 95% CI,Conv. Speed (ep),Policy Opt. %
+FrozenLake 4x4 (det),Q-learning,+0.89,+-0.01,0.3499,+-0.0144,4834,81.2%
+FrozenLake 4x4 (det),SARSA,+0.88,+-0.01,0.3303,+-0.0189,4879,93.8%
+FrozenLake 4x4 (det),Expected SARSA,+0.89,+-0.01,0.3621,+-0.0125,4834,81.2%
+FrozenLake 4x4 (det),Double Q-learning,+0.89,+-0.01,0.3741,+-0.0092,4851,87.5%
+FrozenLake 4x4 (slip),Q-learning,+0.38,+-0.02,0.0698,+-0.0080,5000,93.8%
+FrozenLake 4x4 (slip),SARSA,+0.38,+-0.02,0.1661,+-0.0046,5000,87.5%
+FrozenLake 4x4 (slip),Expected SARSA,+0.37,+-0.02,0.1601,+-0.0037,5000,87.5%
+FrozenLake 4x4 (slip),Double Q-learning,+0.33,+-0.03,0.1453,+-0.0196,5000,87.5%
+FrozenLake 8x8 (det),Q-learning,+0.91,+-0.01,0.5741,+-0.0034,4861,37.5%
+FrozenLake 8x8 (det),SARSA,+0.87,+-0.04,0.5758,+-0.0042,4945,35.9%
+FrozenLake 8x8 (det),Expected SARSA,+0.91,+-0.01,0.5854,+-0.0034,4861,37.5%
+FrozenLake 8x8 (det),Double Q-learning,+0.91,+-0.01,0.5999,+-0.0046,4801,39.1%
+FrozenLake 8x8 (slip),Q-learning,+0.24,+-0.02,0.1888,+-0.0038,5000,57.8%
+FrozenLake 8x8 (slip),SARSA,+0.25,+-0.02,0.2507,+-0.0064,5000,68.8%
+FrozenLake 8x8 (slip),Expected SARSA,+0.25,+-0.02,0.2470,+-0.0032,5000,64.1%
+FrozenLake 8x8 (slip),Double Q-learning,+0.12,+-0.04,0.3128,+-0.0132,5000,57.8%
+CliffWalking,Q-learning,-49.15,+-2.41,43.6293,+-0.0001,5000,83.3%
+CliffWalking,SARSA,-21.45,+-0.59,44.8059,+-0.0504,5000,72.9%
+CliffWalking,Expected SARSA,-21.06,+-0.76,44.8023,+-0.0707,5000,77.1%
+CliffWalking,Double Q-learning,-26.35,+-2.54,46.3572,+-0.3615,5000,60.4%
+Taxi-v3,Q-learning,+2.38,+-0.31,8.2642,+-0.0109,5000,70.6%
+Taxi-v3,SARSA,+2.20,+-0.30,9.5901,+-0.0193,5000,71.0%
+Taxi-v3,Expected SARSA,+2.33,+-0.31,9.4171,+-0.0114,5000,72.8%
+Taxi-v3,Double Q-learning,+2.18,+-0.38,11.7104,+-0.0659,5000,72.6%
